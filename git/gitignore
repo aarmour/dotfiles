@@ -1,0 +1,13 @@
+# build
+*.pyc
+
+# log
+*.log
+
+# temp and backup
+*~
+*.swp
+tmp/**/*
+
+# OS
+.DS_Store

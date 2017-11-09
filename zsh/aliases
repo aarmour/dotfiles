@@ -1,0 +1,17 @@
+# unix
+alias cl='clear'
+alias ll="ls -al"
+alias ln="ln -v"
+alias mkdir="mkdir -p"
+alias e="$EDITOR"
+alias v="$VISUAL"
+
+# pretty print the path
+alias path='echo $PATH | tr -s ":" "\n"'
+
+# developer tools
+alias pretty-json='python -mjson.tool'
+alias serve='python -m SimpleHTTPServer'
+
+# include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local

@@ -1,0 +1,19 @@
+[user]
+  # name = Your Name
+  # email = your.email@briebug.com
+[color]
+  ui = auto
+[push]
+  default = current
+[alias]
+  br = branch
+  ci = commit
+  co = checkout
+  lg = !tig
+  pf = push --force-with-lease
+  s = status
+[core]
+  excludesfile = ~/.gitignore
+  ignorecase = false
+[include]
+  path = ~/.gitconfig.local

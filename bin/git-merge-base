@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git merge-base $(git-current-branch) $1
