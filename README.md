@@ -9,8 +9,16 @@ Setup is not automated (yet). For now:
 ```
 ln -s ~/dotfiles/zsh .zsh
 ln -s ~/dotfiles/zshrc .zshrc
-cp ~/dotfiles/git/gitconfig .gitconfig
+ln -s ~/dotfiles/git/gitconfig .gitconfig
 ln -s ~/dotfiles/git/gitignore .gitignore
+```
+
+Create `~/.gitconfig.local` and add:
+
+```
+[user]
+  name = Your Name
+  email = your.name@example.com
 ```
 
 To change system defaults, copy the `macos` file and uncomment the desired lines, then run the script: 
