@@ -19,3 +19,10 @@
 
 * Docker
 
+### Misc
+
+### Fix key repeat for Vim extension
+
+1. `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false`
+2. `sudo killall SystemUIServer`
+
