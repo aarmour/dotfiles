@@ -6,6 +6,12 @@ for function in ~/.zsh/functions/*; do
   source $function
 done
 
+if [ -d ~/.functions ]; then
+  for function in ~/.functions/*; do
+    source $function
+  done
+fi
+
 # extra files in ~/.zsh/config/pre , ~/.zsh/config , and ~/.zsh/config/post
 # these are loaded first, second, and third, respectively.
 _load_settings() {
