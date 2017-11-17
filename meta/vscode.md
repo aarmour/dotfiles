@@ -12,6 +12,11 @@
 * EditorConfig for VS Code
 * Vim
 
+### Code
+
+* ESLint
+* TSLint
+
 ### Git
 
 * Git Lens
