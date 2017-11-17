@@ -5,7 +5,7 @@
 ### General
 
 * Settings Sync
-** Gist id: `10e1b87d812eab7835da2a22cf4b7651`
+  * Gist id: `10e1b87d812eab7835da2a22cf4b7651`
 
 ### Editor
 
