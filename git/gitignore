@@ -9,5 +9,8 @@
 *.swp
 tmp/**/*
 
+# misc
+.local
+
 # OS
 .DS_Store
