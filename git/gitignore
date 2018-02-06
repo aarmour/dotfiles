@@ -12,5 +12,8 @@ tmp/**/*
 # misc
 .local
 
+# IDE
+.vscode
+
 # OS
 .DS_Store
