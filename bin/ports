@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ -n "$1" ]; then port=":$1"; fi
+
+lsof -nP -i4TCP${port} | grep LISTEN
