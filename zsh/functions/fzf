@@ -13,3 +13,11 @@ fco() {
         --ansi) || return
   git checkout $(awk '{print $2}' <<<"$target" )
 }
+
+# fbrd - Fuzzy Branch Delete
+fbrd() {
+  local branches branch
+  branches=$(git branch) &&
+  branch=$(echo "$branches" | fzf +m) &&
+    git branch -D $(echo "$branch" | sed "s/.* //") && fbrd
+}
