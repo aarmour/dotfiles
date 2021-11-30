@@ -23,4 +23,4 @@ function docker_alias() {
     ${@:2}
 }
 
-alias mysql="docker_alias /directory mysql mysql"
+alias dmysql="docker_alias /directory mysql mysql"
